@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatting machine</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d1b51de8a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="chatting__container">
+      <div class="bar">
+        <span class="time">9:10</span>
+        <div class="bar__icon">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-three-quarters"></i>
+        </div>
+      </div>
+
+      <header class="chatting__info">
+        <img src="imgs/profile.jpg" alt="profile" />
+        <span>John</span>
+      </header>
+
+      <div class="chatting__window">
+        <ul class="chat__box__container"></ul>
+      </div>
+
+      <footer class="chatting__footer">
+        <input type="text" class="footer__input" />
+        <button class="footer__button">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </footer>
+    </section>
+  </body>
+</html>

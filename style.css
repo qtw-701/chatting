@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.chatting__container {
+  /* max-width: 1024px;
+    min-width: 350px; */
+  width: 350px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin: 16px auto;
+}
+
+/* bar */
+.bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.bar .bar__icon {
+  font-size: 14px;
+}
+
+.bar .bar__icon i {
+  margin-left: 4px;
+}
+
+/* header */
+.chatting__info {
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.chatting__info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.chatting__info span {
+  font-size: 24px;
+  margin-left: 16px;
+}
+
+/* chatting windonw */
+.chatting__window {
+  width: 100%;
+  height: 500px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chat__box__container {
+  overflow-y: auto;
+}
+
+.chat__box {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.chat__box.box__me {
+  justify-content: flex-end;
+}
+
+.chatting {
+  display: inline-block;
+  max-width: 70%;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.chatting.me {
+  background-color: #353535;
+}
+
+.chatting.another {
+  background-color: #555555;
+}
+
+/* footer */
+.chatting__footer {
+  width: 100%;
+  height: 60px;
+  background-color: #353535;
+  border-radius: 0 0 20px 20px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__input {
+  width: 80%;
+  height: 30px;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.footer__button {
+  background-color: transparent;
+  font-size: 24px;
+  color: #ffaf14;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+
+.footer__button:hover {
+  transform: scale(1.1);
+}
